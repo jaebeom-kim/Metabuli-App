@@ -52,6 +52,8 @@ You can create a new database in "NEW DATABASE" tab by providing these three fil
   (WARNING: It it not tested for large databases. Using it with > 100K sequences may cause issues.)
 - `--max-ram`: Specify the maximum RAM (in GiB) to allocate for the job.
 - `--threads`: Specify the number of threads to use for the job.
+- `--validate-input`: Validate the format of the input FASTA files.
+- `--validate-db`: Validate the generated database files.
 
 
  
@@ -82,6 +84,8 @@ You can add new sequences to an existing database in the "UPDATE DATABASE" tab b
   (WARNING: It it not tested for large databases. Using it with > 100K sequences may cause issues.)
 - `--max-ram`: Specify the maximum RAM (in GiB) to allocate for the job.
 - `--threads`: Specify the number of threads to use for the job.
+- `--validate-input`: Validate the format of the input FASTA files.
+- `--validate-db`: Validate the generated database files.
 - `--new-taxa`:  Used when adding sequences from taxa not included in the existing database. See the section below for details.
 
 ### Adding seqeunces of new taxa
